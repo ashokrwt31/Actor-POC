@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D934083128FD72AD005FBE6E /* ARBankAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D934083028FD72AD005FBE6E /* ARBankAccountViewController.swift */; };
+		D934083528FD7334005FBE6E /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D934083428FD7334005FBE6E /* AccountViewModel.swift */; };
+		D934083728FD734D005FBE6E /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = D934083628FD734D005FBE6E /* Account.swift */; };
 		D9A6618C28F958B900EBB626 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A6618B28F958B900EBB626 /* AppDelegate.swift */; };
 		D9A6618E28F958B900EBB626 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A6618D28F958B900EBB626 /* SceneDelegate.swift */; };
 		D9A6619028F958B900EBB626 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A6618F28F958B900EBB626 /* ViewController.swift */; };
@@ -16,6 +19,8 @@
 		D9A661A328F958C500EBB626 /* Actor_POCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A661A228F958C500EBB626 /* Actor_POCTests.swift */; };
 		D9A661AD28F958C500EBB626 /* Actor_POCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A661AC28F958C500EBB626 /* Actor_POCUITests.swift */; };
 		D9A661AF28F958C500EBB626 /* Actor_POCUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A661AE28F958C500EBB626 /* Actor_POCUITestsLaunchTests.swift */; };
+		D9C4DD2128FE854D00A87890 /* ARBankTransferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C4DD2028FE854D00A87890 /* ARBankTransferViewController.swift */; };
+		D9C4DD2328FE858B00A87890 /* ARBankAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C4DD2228FE858B00A87890 /* ARBankAccount.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D934083028FD72AD005FBE6E /* ARBankAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARBankAccountViewController.swift; sourceTree = "<group>"; };
+		D934083428FD7334005FBE6E /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		D934083628FD734D005FBE6E /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 		D9A6618828F958B900EBB626 /* Actor-POC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Actor-POC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9A6618B28F958B900EBB626 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9A6618D28F958B900EBB626 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +57,8 @@
 		D9A661A828F958C500EBB626 /* Actor-POCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Actor-POCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9A661AC28F958C500EBB626 /* Actor_POCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actor_POCUITests.swift; sourceTree = "<group>"; };
 		D9A661AE28F958C500EBB626 /* Actor_POCUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actor_POCUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D9C4DD2028FE854D00A87890 /* ARBankTransferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARBankTransferViewController.swift; sourceTree = "<group>"; };
+		D9C4DD2228FE858B00A87890 /* ARBankAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARBankAccount.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +86,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D934083228FD7310005FBE6E /* BankAccount */ = {
+			isa = PBXGroup;
+			children = (
+				D934083028FD72AD005FBE6E /* ARBankAccountViewController.swift */,
+				D934083428FD7334005FBE6E /* AccountViewModel.swift */,
+				D934083628FD734D005FBE6E /* Account.swift */,
+			);
+			path = BankAccount;
+			sourceTree = "<group>";
+		};
 		D9A6617F28F958B900EBB626 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +119,8 @@
 		D9A6618A28F958B900EBB626 /* Actor-POC */ = {
 			isa = PBXGroup;
 			children = (
+				D9C4DD1F28FE851F00A87890 /* BankTransfer */,
+				D934083228FD7310005FBE6E /* BankAccount */,
 				D9A6618B28F958B900EBB626 /* AppDelegate.swift */,
 				D9A6618D28F958B900EBB626 /* SceneDelegate.swift */,
 				D9A6618F28F958B900EBB626 /* ViewController.swift */,
@@ -125,6 +147,15 @@
 				D9A661AE28F958C500EBB626 /* Actor_POCUITestsLaunchTests.swift */,
 			);
 			path = "Actor-POCUITests";
+			sourceTree = "<group>";
+		};
+		D9C4DD1F28FE851F00A87890 /* BankTransfer */ = {
+			isa = PBXGroup;
+			children = (
+				D9C4DD2028FE854D00A87890 /* ARBankTransferViewController.swift */,
+				D9C4DD2228FE858B00A87890 /* ARBankAccount.swift */,
+			);
+			path = BankTransfer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +290,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9A6619028F958B900EBB626 /* ViewController.swift in Sources */,
+				D934083528FD7334005FBE6E /* AccountViewModel.swift in Sources */,
+				D9C4DD2328FE858B00A87890 /* ARBankAccount.swift in Sources */,
+				D934083128FD72AD005FBE6E /* ARBankAccountViewController.swift in Sources */,
 				D9A6618C28F958B900EBB626 /* AppDelegate.swift in Sources */,
+				D9C4DD2128FE854D00A87890 /* ARBankTransferViewController.swift in Sources */,
 				D9A6618E28F958B900EBB626 /* SceneDelegate.swift in Sources */,
+				D934083728FD734D005FBE6E /* Account.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
